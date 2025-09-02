@@ -29,7 +29,7 @@ button {
     background-color: #99d6ff;
 }
 
-.first-part button {
+button.donate {
     align-self: flex-end;
     width: 30%;
     
@@ -79,6 +79,10 @@ p.adopt {
 
 .second-part img {
     width: 90%;
+}
+
+.second-part img.blanket {
+    margin-top: 20px;
 }
 
 .second-part button {
