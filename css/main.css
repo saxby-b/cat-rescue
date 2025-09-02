@@ -1,0 +1,39 @@
+body {
+    width: 90%;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+}
+
+button {
+    background-color: brown;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+
+.first-part {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.first-part h1 {
+    width: 100%;
+}
+
+.first-part p {
+    width: 100%;
+}
+
+img {
+    width: 20%;
+}
