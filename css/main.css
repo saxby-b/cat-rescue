@@ -10,8 +10,17 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    position: relative;
 
 }
+
+.donate {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 
 button {
     background-color: brown;
@@ -29,11 +38,7 @@ button {
     background-color: #99d6ff;
 }
 
-button.donate {
-    align-self: flex-end;
-    width: 30%;
-    
-}
+
 
 h1 {
     width: 100%;
