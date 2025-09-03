@@ -148,4 +148,19 @@ h3.support {
     text-align: left;
 }
 
+/*Third Part Styles */
+
+
+.third-part {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+  /*  background-color: #eeccff; */
+    margin-top: 40px;
+    border-top: 20px dotted #99d6ff;
+
+}
+
 
