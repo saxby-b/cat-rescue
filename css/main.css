@@ -14,6 +14,10 @@ body {
 
 }
 
+h3 { 
+    font-size: 30px;
+}
+
 .donate {
     width: 100%;
     display: flex;
@@ -93,3 +97,15 @@ p.adopt {
 .second-part button {
     margin-bottom: 20px;
 }
+
+.second-part h3 {
+    text-align: center;
+}
+
+h3.support {
+    margin-top: 20px;
+    padding-top: 40px;
+    border-top:  #99d6ff dotted 20px;
+    font-size: 40px;
+}
+
