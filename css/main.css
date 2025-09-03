@@ -117,24 +117,24 @@ h3.support {
 
 
 
-/* More Info Styles
+/* More Info Styles */
 .more-info {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 20px;
-    background-color: #e6f5ff;
-     width: 90%;
-       flex-direction: column;
+   
      
 }
 
 .more-info-container {
-   
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 40px;
+    width: 80%;
+    flex-direction: column;
+     background-color: #e6f5ff;
+
+
  
 
 }
@@ -143,10 +143,9 @@ h3.support {
     text-align: center;
 }
 
-h3.supplies, .supplies li {
-    text-align: left;
+.supplies li {
     width: 100%;
-    margin-left: 10px;
-} */
+    text-align: left;
+}
 
 
