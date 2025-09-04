@@ -1,5 +1,10 @@
-const span = document.querySelector("span");
+const span = document.querySelector(".copyright");
 
 const d = new Date();
 const year = d.getFullYear();
-span.innerText = year;
+span.innerText = year; 
+
+
+
+
+
