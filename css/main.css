@@ -203,7 +203,7 @@ footer p {
 
     .content-wrapper .photo-gallery {
         display: flex;
-        width: 100%;
+        width: 90%;
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
@@ -213,6 +213,9 @@ footer p {
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+        width: 100%;
+
+        
     }
     .photo-gallery img {
         width: 25%;
