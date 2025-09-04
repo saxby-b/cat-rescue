@@ -160,8 +160,16 @@ h3.support {
   /*  background-color: #eeccff; */
     margin-top: 40px;
     border-top: 20px dotted #99d6ff;
+    margin-bottom: 40px;
 
 }
+
+.third-part p {
+    width: 100%;
+    text-align: center;
+}
+
+
 
 /*Photo Gallery Styles */
 
@@ -171,6 +179,7 @@ h3.support {
     align-items: center;
     flex-direction: column;
     width: 90%;
+
 }
 
 .photo-gallery img {
