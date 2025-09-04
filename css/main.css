@@ -163,4 +163,18 @@ h3.support {
 
 }
 
+/*Photo Gallery Styles */
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.photo-gallery img {
+    width: 100%;
+}
+
 
