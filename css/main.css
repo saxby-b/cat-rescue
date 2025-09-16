@@ -154,9 +154,25 @@ h3.support {
     text-align: center;
 }
 
+ul.supplies {
+    padding: 0;
+}
+
 .supplies li {
     width: 100%;
     text-align: left;
+}
+
+ul.social {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li {
+    list-style-type: none;
+     margin-right: 10px;
 }
 
 /*Third Part Styles */
