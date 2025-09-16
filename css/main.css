@@ -254,18 +254,18 @@ footer p {
 
   
   }
-  .main-img {
+  .about-img {
     width: 50%;
     order: 2;
   }
 
-  .main-img img {
+  .about-img img {
     width: 100%;
   }
 
 
 
-  .main-p {
+  .about-p {
     width: 50%;
     order: 1;
     display: flex;
