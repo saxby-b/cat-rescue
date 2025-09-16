@@ -19,6 +19,10 @@ h1, h2, h3 {
     color: #004d80;
 }
 
+h2 {
+    font-size: 36px;
+}
+
 h3 { 
     font-size: 20px;
     text-align: center;
@@ -57,6 +61,7 @@ button {
 h1 {
     width: 100%;
     text-align: center;
+    font-size: 40px;
 }
 
 .first-part img {
@@ -118,6 +123,7 @@ h3.support {
     padding-top: 40px;
     border-top:  #99d6ff dotted 20px;
     font-size: 40px;
+    width: 100%;
 }
 
 
@@ -197,6 +203,14 @@ footer p {
 }
 
 @media (min-device-width: 768px) {
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 18.72px;
+    }
 
 
     h3.support {
