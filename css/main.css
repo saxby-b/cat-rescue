@@ -248,11 +248,29 @@ footer p {
   }
 
   /*First Part Styles */
-  .first-part .first-part img {
+  .first-part {
+ align-items: center;
+ flex-flow: row wrap;
+
+  
+  }
+  .main-img {
     width: 50%;
+    order: 2;
   }
 
-  .first-part p {
-    width: 20%;
+  .main-img img {
+    width: 100%;
+  }
+
+
+
+  .main-p {
+    width: 50%;
+    order: 1;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    
   }
 }
