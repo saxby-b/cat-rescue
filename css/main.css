@@ -1,276 +1,258 @@
 /* General Comments */
 
 body {
-    width: 100%;
+  width: 100%;
 }
 
 .content-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-   
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
-h1, h2, h3 {
-    font-family: "Oswald", sans-serif;
-    color: #004d80;
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+  color: #004d80;
 }
 
 h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
-h3 { 
-    font-size: 20px;
-    text-align: center;
+h3 {
+  font-size: 20px;
+  text-align: center;
 }
 
 P {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .donate {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-
-
 button {
-    background-color: brown;
-    color: antiquewhite;
-    text-decoration: underline;
+  background-color: brown;
+  color: antiquewhite;
+  text-decoration: underline;
 }
 
 /* First Part */
 .first-part {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: #99d6ff;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #99d6ff;
 }
 
-
-
 h1 {
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
 }
 
 .first-part img {
-    width: 100%;
+  width: 100%;
 }
 
 .first-part p {
-    width: 100%;
-    text-align: center;
-    padding: 0 10px;
+  width: 100%;
+  text-align: center;
+  padding: 0 10px;
 }
 
 img {
-    width: 20%;
+  width: 20%;
 }
 
-p.adopt { 
-    padding-bottom: 20px;
-    text-align: center;
-    
+p.adopt {
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 /* Programs */
 
 .second-part {
-      width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin-top: 40px;
-    border-top: #99d6ff dotted 20px;
-    margin-bottom: 40px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 40px;
+  border-top: #99d6ff dotted 20px;
+  margin-bottom: 40px;
 }
 
 .second-part h2 {
-    font-size: 30px;
-    text-align: center;
+  font-size: 30px;
+  text-align: center;
 }
 
 .second-part img {
-    width: 90%;
+  width: 90%;
 }
 
 .second-part img.blanket {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .second-part button {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .second-part h3 {
-    text-align: center;
+  text-align: center;
 }
 
 h3.support {
-    margin-top: 20px;
-    padding-top: 40px;
-    border-top:  #99d6ff dotted 20px;
-    font-size: 40px;
-    width: 100%;
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: #99d6ff dotted 20px;
+  font-size: 40px;
+  width: 100%;
 }
-
-
 
 /* More Info Styles */
 .more-info {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-   
-     
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .more-info-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 80%;
-    flex-direction: column;
-     background-color: #e6f5ff;
-
-
- 
-
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+  background-color: #e6f5ff;
 }
 
 .more-info p {
-    text-align: center;
+  text-align: center;
 }
 
 ul.supplies {
-    padding: 0;
+  padding: 0;
 }
 
 .supplies li {
-    width: 100%;
-    text-align: left;
+  width: 100%;
+  text-align: left;
 }
 
 ul.social {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social li {
-    list-style-type: none;
-     margin-right: 10px;
+  list-style-type: none;
+  margin-right: 10px;
 }
 
 /*Third Part Styles */
 
-
 .third-part {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    align-items: center;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
   /*  background-color: #eeccff; */
-    margin-top: 40px;
-    border-top: 20px dotted #99d6ff;
-    margin-bottom: 40px;
-
+  margin-top: 40px;
+  border-top: 20px dotted #99d6ff;
+  margin-bottom: 40px;
 }
 
 .third-part p {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
-
-
 
 /*Photo Gallery Styles */
 
 .photo-gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 90%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
 }
 
 .photo-gallery img {
-    width: 100%;
+  width: 100%;
 }
 
 footer p {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 18.72px;
+  }
+
+  h3.support {
     width: 100%;
-    text-align: center;
+  }
+
+  /*Photo Gallery Styles*/
+
+  .content-wrapper .photo-gallery {
+    display: flex;
+    width: 90%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo-gallery {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .photo-gallery img {
+    width: 25%;
+    height: 259px;
+  }
 }
 
-@media (min-device-width: 768px) {
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 40px;
+  }
 
-    h2 {
-        font-size: 36px;
-    }
+  h3 {
+    font-size: 20px;
+  }
 
-    h3 {
-        font-size: 18.72px;
-    }
+  /*First Part Styles */
+  .first-part .first-part img {
+    width: 50%;
+  }
 
-
-    h3.support {
-        width: 100%;
-    }
-
-
-    /*Photo Gallery Styles*/
-
-    .content-wrapper .photo-gallery {
-        display: flex;
-        width: 90%;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-   .photo-gallery {
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-
-        
-    }
-    .photo-gallery img {
-        width: 25%;
-        height: 259px;
-    }
-
-    
-
+  .first-part p {
+    width: 20%;
+  }
 }
-
-@media (min-device-width: 1200px) {
-    h1 {
-        font-size: 42px;
-    }
-    h2 {
-        font-size: 40px
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-}
-
