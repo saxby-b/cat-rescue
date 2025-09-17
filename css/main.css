@@ -279,4 +279,9 @@ footer p {
   .about-p p {
     width: 90%;
   }
+
+  /*Second Part Styles */
+  .second-part p {
+    width: 100%;
+  }
 }
