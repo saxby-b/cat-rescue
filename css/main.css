@@ -280,8 +280,20 @@ footer p {
     width: 90%;
   }
 
+
+
   /*Second Part Styles */
+
+  img.blanket {
+    width: 100%;
+  }
+
+  .second-part h3 {
+    padding-top: 40px;
+  }
   .second-part p {
     width: 100%;
   }
+
+
 }
