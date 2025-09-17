@@ -261,6 +261,8 @@ footer p {
 
   .about-img img {
     width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
 
@@ -272,5 +274,9 @@ footer p {
     align-items: center;
     flex-flow: column wrap;
     
+  }
+
+  .about-p p {
+    width: 90%;
   }
 }
