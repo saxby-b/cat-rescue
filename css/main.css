@@ -98,7 +98,7 @@ p.adopt {
   align-items: center;
   flex-flow: row wrap;
   margin-top: 40px;
-  border-top: #99d6ff dotted 20px;
+/*  border-top: #99d6ff dotted 20px;*/
   margin-bottom: 40px;
 }
 
