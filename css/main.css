@@ -308,7 +308,8 @@ footer p {
     justify-content: flex-start;
   }
 
-  .programs {
+
+  .programs, .support {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -316,9 +317,9 @@ footer p {
   }
 
   aside.content-wrapper {
-    width: 40%;
-    display: flex;
-    align-items: center;
+    width: 20%;
+   /* flex: 0 0 300px; */
+    align-self: flex-start;
   }
 
   aside.content-wrapper .fundraiser {
