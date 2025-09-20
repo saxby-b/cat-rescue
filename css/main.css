@@ -296,8 +296,14 @@ footer p {
 
   /*Second Part Styles */
 
-  .second-part {
+  .help {
+    display: flex;
+    flex-flow: row wrap;
     width: 100%;
+  }
+
+  .second-part {
+    width: 60%;
     flex-flow: row wrap;
   }
 
