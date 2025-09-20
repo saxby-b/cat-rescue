@@ -108,7 +108,7 @@ p.adopt {
 }
 
 .second-part h2 {
-  font-size: 30px;
+  /*font-size: 30px; */
   text-align: center;
 }
 
@@ -137,13 +137,13 @@ h3.support {
 }
 
 /* More Info Styles */
-.more-info {
+aside.content-wrapper {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.more-info-container {
+aside.content-wrapper .fundraiser {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -298,8 +298,35 @@ footer p {
 
   .second-part {
     width: 100%;
+    flex-flow: row wrap;
+  }
+
+  .second-part .content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+
+  .programs {
+    display: flex;
+    justify-content: flex-start;
     flex-direction: column;
-    column-gap: 20px;
+    width: 60%;
+  }
+
+  aside.content-wrapper {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+
+  aside.content-wrapper .fundraiser {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
   }
 
   img.blanket {
@@ -315,4 +342,10 @@ footer p {
 }
 
 @media (min-width: 1200px) {
+
+    /*Second Part Styles */
+
+    .programs h2 {
+        width: 100%;
+    }
 }
