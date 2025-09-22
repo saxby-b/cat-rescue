@@ -361,15 +361,31 @@ footer p {
 
 @media (min-width: 1200px) {
 
+  /*About Styles */
+
+  .about-p p {
+    margin: 0;
+  }
+
     /*Help and Mission Styles */
 
-/*    .mission .content-wrapper {
-      width: 50%;
-    } */
+    .help {
+      width: 100%;
+    }
+
+    .mission .content-wrapper {
+      column-gap: 25px;
+    }
+
+
 
    .programs {
-      width: 50%;
+      width: 45%;
     }  
+
+    .support {
+      text-align: center;
+    }
 
     .mission h2 {
         width: 100%;
@@ -379,6 +395,7 @@ footer p {
       width: 90%;
       height: 231.17px;
       object-fit: cover;
+      margin-top: 0;
     }
 
     /*Photo Gallery Styles */
