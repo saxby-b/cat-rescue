@@ -45,7 +45,7 @@ button {
 }
 
 /* First Part */
-.first-part {
+.about {
   width: 90%;
   display: flex;
   justify-content: center;
@@ -60,11 +60,11 @@ h1 {
   font-size: 40px;
 }
 
-.first-part img {
+.about img {
   width: 100%;
 }
 
-.first-part p {
+.about p {
   text-align: center;
   padding: 0 10px;
 }
@@ -80,7 +80,7 @@ p.adopt {
 
 /* Programs */
 
-.second-part {
+.mission {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -107,24 +107,24 @@ p.adopt {
   width: 90%;
 }
 
-.second-part h2 {
+.mission h2 {
   /*font-size: 30px; */
   text-align: center;
 }
 
-.second-part img {
+.mission img {
   width: 90%;
 }
 
-.second-part img.blanket {
+.mission img.blanket {
   margin-top: 20px;
 }
 
-.second-part button {
+.mission button {
   margin-bottom: 20px;
 }
 
-.second-part h3 {
+.mission h3 {
   text-align: center;
 }
 
@@ -179,7 +179,7 @@ ul.social {
 
 /*Third Part Styles */
 
-.third-part {
+.difference {
   width: 90%;
   display: flex;
   justify-content: center;
@@ -191,7 +191,7 @@ ul.social {
   margin-bottom: 40px;
 }
 
-.third-part p {
+.difference p {
   width: 100%;
   text-align: center;
 }
@@ -267,7 +267,7 @@ footer p {
   }
 
   /*First Part Styles */
-  .first-part {
+  .about {
     align-items: center;
     flex-flow: row wrap;
   }
@@ -302,12 +302,12 @@ footer p {
     width: 100%;
   }
 
-  .second-part {
+  .mission {
     width: 60%;
     flex-flow: row wrap;
   }
 
-  .second-part .content-wrapper {
+  .mission .content-wrapper {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -340,10 +340,10 @@ footer p {
     width: 100%;
   }
 
-  .second-part h3 {
+  .mission h3 {
     padding-top: 40px;
   }
-  .second-part p {
+  .mission p {
     width: 100%;
   }
 }
