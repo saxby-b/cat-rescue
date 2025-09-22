@@ -363,11 +363,26 @@ footer p {
 
     /*Help and Mission Styles */
 
-    .programs {
+/*    .mission .content-wrapper {
       width: 50%;
+    } */
+
+   .programs {
+      width: 50%;
+    }  
+
+    .mission h2 {
+        width: 100%;
     }
 
-    .programs h2 {
-        width: 100%;
+    img.blanket {
+      width: 90%;
+      height: 231.17px;
+      object-fit: cover;
+    }
+
+    /*Photo Gallery Styles */
+    .photo-gallery img {
+      object-fit: cover;
     }
 }
