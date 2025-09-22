@@ -46,6 +46,8 @@ button {
 }
 
 /* About Styles */
+
+
 .about {
   width: 90%;
   display: flex;
@@ -53,6 +55,7 @@ button {
   align-items: center;
   flex-flow: row wrap;
   background-color: #99d6ff;
+  margin-bottom: 40px;
 }
 
 /* Move h1 to general selectors */
@@ -82,6 +85,11 @@ p.adopt {
 
 /* Help and Mission Styles */
 
+.help {
+  border-top: #99d6ff dotted 20px;
+  width: 100%;
+}
+
 .mission {
   width: 100%;
   display: flex;
@@ -89,7 +97,6 @@ p.adopt {
   align-items: center;
   flex-flow: row wrap;
   margin-top: 40px;
-  border-top: #99d6ff dotted 20px;
   margin-bottom: 40px;
 }
 
