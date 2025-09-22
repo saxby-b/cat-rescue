@@ -3,7 +3,7 @@
 body {
   width: 100%;
   font-size: 16px;
-  line-height: 1.5; 
+  line-height: 1.5;
 }
 
 .content-wrapper {
@@ -47,7 +47,6 @@ button {
 }
 
 /* About Styles */
-
 
 .about {
   width: 90%;
@@ -108,7 +107,7 @@ p.adopt {
   align-items: center;
   flex-flow: row wrap;
   margin-top: 40px;
-/*  border-top: #99d6ff dotted 20px;*/
+  /*  border-top: #99d6ff dotted 20px;*/
   margin-bottom: 40px;
 }
 
@@ -324,8 +323,8 @@ footer p {
     justify-content: flex-start;
   }
 
-
-  .programs, .support {
+  .programs,
+  .support {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -335,16 +334,14 @@ footer p {
 
   aside.content-wrapper {
     width: 40%;
-   /* flex: 0 0 300px; */
+    /* flex: 0 0 300px; */
     align-self: flex-start;
   }
 
   aside.content-wrapper .fundraiser {
-
     width: 80%;
     display: flex;
     flex-direction: column;
-
   }
 
   img.blanket {
@@ -360,46 +357,43 @@ footer p {
 }
 
 @media (min-width: 1200px) {
-
   /*About Styles */
 
   .about-p p {
     margin: 0;
   }
 
-    /*Help and Mission Styles */
+  /*Help and Mission Styles */
 
-    .help {
-      width: 100%;
-    }
+  .help {
+    width: 100%;
+  }
 
-    .mission .content-wrapper {
-      column-gap: 25px;
-    }
+  .mission .content-wrapper {
+    column-gap: 25px;
+  }
 
+  .programs {
+    width: 45%;
+  }
 
+  .support {
+    text-align: center;
+  }
 
-   .programs {
-      width: 45%;
-    }  
+  .mission h2 {
+    width: 100%;
+  }
 
-    .support {
-      text-align: center;
-    }
+  img.blanket {
+    width: 90%;
+    height: 231.17px;
+    object-fit: cover;
+    margin-top: 0;
+  }
 
-    .mission h2 {
-        width: 100%;
-    }
-
-    img.blanket {
-      width: 90%;
-      height: 231.17px;
-      object-fit: cover;
-      margin-top: 0;
-    }
-
-    /*Photo Gallery Styles */
-    .photo-gallery img {
-      object-fit: cover;
-    }
+  /*Photo Gallery Styles */
+  .photo-gallery img {
+    object-fit: cover;
+  }
 }
