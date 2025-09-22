@@ -3,6 +3,7 @@
 body {
   width: 100%;
   font-size: 16px;
+  line-height: 1.5; 
 }
 
 .content-wrapper {
@@ -361,6 +362,10 @@ footer p {
 @media (min-width: 1200px) {
 
     /*Help and Mission Styles */
+
+    .programs {
+      width: 50%;
+    }
 
     .programs h2 {
         width: 100%;
