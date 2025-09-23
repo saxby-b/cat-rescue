@@ -426,6 +426,15 @@ footer p {
     text-align: center;
   }
 
+  .fa-facebook-f:before,
+  .fa-facebook-f:after,
+  .fa-instagram:before,
+  .fa-instagram:after,
+  .fa-pinterest:before,
+  .fa-pinterest:after {
+    color: #004d80;
+  }
+
   /*Photo Gallery Styles */
   .photo-gallery img {
     object-fit: cover;
