@@ -392,6 +392,33 @@ footer p {
     margin-top: 0;
   }
 
+  /*Fundraiser Styles */
+
+  .fundraiser p, .fundraiser ul {
+    width: 80%;
+  }
+
+  /*Supplies Styles */
+
+  ul.supplies {
+    width: 70%;
+    text-align: center;
+  }
+
+
+   p.contact {
+    text-align: center;
+   
+  }
+
+  /*Social Styles */
+  ul.social {
+    width: 100%;
+    text-align: center;
+  }
+
+ 
+
   /*Photo Gallery Styles */
   .photo-gallery img {
     object-fit: cover;
