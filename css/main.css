@@ -359,6 +359,10 @@ footer p {
 @media (min-width: 1200px) {
   /*About Styles */
 
+  .about-img {
+    margin-bottom: -6px;
+  }
+
   .about-p p {
     margin: 0;
   }
