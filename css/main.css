@@ -377,6 +377,12 @@ footer p {
     column-gap: 25px;
   }
 
+  .main-programs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
   .programs {
     width: 45%;
   }
@@ -389,7 +395,7 @@ footer p {
     width: 100%;
   }
 
-  img.blanket {
+  .mission img.blanket {
     width: 90%;
     height: 231.17px;
     object-fit: cover;
@@ -398,7 +404,8 @@ footer p {
 
   /*Fundraiser Styles */
 
-  .fundraiser p, .fundraiser ul {
+  .fundraiser p,
+  .fundraiser ul {
     width: 80%;
   }
 
@@ -409,10 +416,8 @@ footer p {
     text-align: center;
   }
 
-
-   p.contact {
+  p.contact {
     text-align: center;
-   
   }
 
   /*Social Styles */
@@ -420,8 +425,6 @@ footer p {
     width: 100%;
     text-align: center;
   }
-
- 
 
   /*Photo Gallery Styles */
   .photo-gallery img {
