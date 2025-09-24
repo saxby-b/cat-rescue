@@ -14,11 +14,10 @@ body {
   flex-flow: column wrap;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Oswald", sans-serif;
-  color: #004d80;
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -30,20 +29,33 @@ h3 {
   text-align: center;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+  color: #004d80;
+}
+
 p {
   font-size: 1.125rem;
 }
 
-.donate {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+img {
+  width: 20%;
 }
 
 button {
   background-color: brown;
   color: antiquewhite;
   text-decoration: underline;
+}
+
+/*Donate Styles */
+
+.donate {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* About Styles */
@@ -58,13 +70,6 @@ button {
   margin-bottom: 40px;
 }
 
-/* Move h1 to general selectors */
-h1 {
-  width: 100%;
-  text-align: center;
-  font-size: 2.5rem;
-}
-
 .about img {
   width: 100%;
 }
@@ -74,16 +79,12 @@ h1 {
   padding: 0 10px;
 }
 
-img {
-  width: 20%;
-}
-
 p.adopt {
   padding-bottom: 20px;
   text-align: center;
 }
 
-/* Help and Mission Styles */
+/* Help, Mission and Program Styles */
 
 .help {
   border-top: #99d6ff dotted 20px;
@@ -111,13 +112,12 @@ p.adopt {
   margin-bottom: 40px;
 }
 
-.programs p {
-  text-align: center;
-  width: 90%;
+.main-programs {
+  border-bottom: #99d6ff dotted 20px;
 }
 
 .mission h2 {
-  /*font-size: 30px; */
+
   text-align: center;
 }
 
@@ -129,25 +129,38 @@ p.adopt {
   margin-top: 20px;
 }
 
-/*.mission button {
-  margin-bottom: 20px;
-} */
-
 .mission h3 {
   text-align: center;
 }
 
-.main-programs {
-  border-bottom: #99d6ff dotted 20px;
+.programs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
+
 
 h3.support {
   margin-top: 20px;
   padding-top: 40px;
-/*  border-top: #99d6ff dotted 20px; */
   font-size: 2.5rem;
   width: 100%;
 }
+
+.programs p {
+  text-align: center;
+  width: 90%;
+}
+
+.support {
+  width: 90%;
+}
+
 
 /* Aside Fundraiser Styles */
 aside.content-wrapper {
@@ -208,14 +221,17 @@ ul.social {
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  /*  background-color: #eeccff; */
   margin-top: 40px;
   border-top: 20px dotted #99d6ff;
   margin-bottom: 40px;
 }
 
+.difference h3 {
+  width: 100%;
+}
+
 .difference p {
-  width: 90%;
+  width: 60%;
   text-align: center;
 }
 
