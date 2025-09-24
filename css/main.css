@@ -190,6 +190,16 @@ ul.social {
   margin-right: 10px;
 }
 
+
+  .fa-facebook-f:before,
+  .fa-facebook-f:after,
+  .fa-instagram:before,
+  .fa-instagram:after,
+  .fa-pinterest:before,
+  .fa-pinterest:after {
+    color: #004d80;
+    font-size: 1.25rem;
+  }
 /*Difference Styles */
 
 .difference {
@@ -433,15 +443,6 @@ footer p {
   ul.social {
     width: 100%;
     text-align: center;
-  }
-
-  .fa-facebook-f:before,
-  .fa-facebook-f:after,
-  .fa-instagram:before,
-  .fa-instagram:after,
-  .fa-pinterest:before,
-  .fa-pinterest:after {
-    color: #004d80;
   }
 
 }
