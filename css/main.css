@@ -137,10 +137,14 @@ p.adopt {
   text-align: center;
 }
 
+.main-programs {
+  border-bottom: #99d6ff dotted 20px;
+}
+
 h3.support {
   margin-top: 20px;
   padding-top: 40px;
-  border-top: #99d6ff dotted 20px;
+/*  border-top: #99d6ff dotted 20px; */
   font-size: 2.5rem;
   width: 100%;
 }
@@ -221,6 +225,7 @@ div.content-wrapper.photo-gallery {
 
 .photo-gallery img {
   width: 100%;
+  object-fit: cover;
 }
 
 footer p {
@@ -435,8 +440,4 @@ footer p {
     color: #004d80;
   }
 
-  /*Photo Gallery Styles */
-  .photo-gallery img {
-    object-fit: cover;
-  }
 }
