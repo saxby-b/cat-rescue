@@ -392,6 +392,10 @@ footer p {
     width: 45%;
   }
 
+  button.special {
+    margin-top: 110px;
+  }
+
   .support {
     text-align: center;
   }
