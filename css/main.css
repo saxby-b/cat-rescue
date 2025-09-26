@@ -117,7 +117,6 @@ p.adopt {
 }
 
 .mission h2 {
-
   text-align: center;
 }
 
@@ -144,7 +143,6 @@ p.adopt {
   margin-bottom: 40px;
 }
 
-
 h3.support {
   margin-top: 20px;
   padding-top: 40px;
@@ -160,7 +158,6 @@ h3.support {
 .support {
   width: 90%;
 }
-
 
 /* Aside Fundraiser Styles */
 aside.content-wrapper {
@@ -178,9 +175,7 @@ aside.content-wrapper .fundraiser {
   background-color: #e6f5ff;
 }
 
-/* .more-info p {
-  text-align: center;
-} */
+/*Supplies Styles */
 
 ul.supplies {
   padding: 0;
@@ -190,6 +185,8 @@ ul.supplies {
   width: 100%;
   text-align: left;
 }
+
+/*Social Styles */
 
 ul.social {
   padding: 0;
@@ -203,16 +200,15 @@ ul.social {
   margin-right: 10px;
 }
 
-
-  .fa-facebook-f:before,
-  .fa-facebook-f:after,
-  .fa-instagram:before,
-  .fa-instagram:after,
-  .fa-pinterest:before,
-  .fa-pinterest:after {
-    color: #004d80;
-    font-size: 1.25rem;
-  }
+.fa-facebook-f:before,
+.fa-facebook-f:after,
+.fa-instagram:before,
+.fa-instagram:after,
+.fa-pinterest:before,
+.fa-pinterest:after {
+  color: #004d80;
+  font-size: 1.25rem;
+}
 /*Difference Styles */
 
 .difference {
@@ -366,7 +362,7 @@ footer p {
     margin: 0;
   }
 
-    img.blanket {
+  img.blanket {
     width: 100%;
   }
 
@@ -389,7 +385,6 @@ footer p {
     display: flex;
     flex-direction: column;
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -466,5 +461,4 @@ footer p {
     width: 100%;
     text-align: center;
   }
-
 }
