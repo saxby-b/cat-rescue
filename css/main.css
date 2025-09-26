@@ -297,6 +297,7 @@ footer p {
 }
 
 @media (min-width: 1024px) {
+  /*General Styles */
   h1 {
     font-size: 2.625rem;
   }
@@ -365,19 +366,7 @@ footer p {
     margin: 0;
   }
 
-  aside.content-wrapper {
-    width: 40%;
-    /* flex: 0 0 300px; */
-    align-self: flex-start;
-  }
-
-  aside.content-wrapper .fundraiser {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  img.blanket {
+    img.blanket {
     width: 100%;
   }
 
@@ -387,6 +376,20 @@ footer p {
   .mission p {
     width: 100%;
   }
+
+  /*Aside Styles */
+
+  aside.content-wrapper {
+    width: 40%;
+    align-self: flex-start;
+  }
+
+  aside.content-wrapper .fundraiser {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 @media (min-width: 1200px) {
