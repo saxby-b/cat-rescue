@@ -178,9 +178,9 @@ aside.content-wrapper .fundraiser {
   background-color: #e6f5ff;
 }
 
-.more-info p {
+/* .more-info p {
   text-align: center;
-}
+} */
 
 ul.supplies {
   padding: 0;
@@ -216,7 +216,6 @@ ul.social {
 /*Difference Styles */
 
 .difference {
-/*  width: 90%; */
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -231,7 +230,7 @@ ul.social {
 }
 
 .difference p {
-  width: 60%;
+  width: 80%;
   text-align: center;
 }
 
@@ -253,6 +252,8 @@ div.content-wrapper.photo-gallery {
   width: 100%;
   object-fit: cover;
 }
+
+/* Footer Styles */
 
 footer p {
   width: 100%;
