@@ -4,6 +4,9 @@ const d = new Date();
 const year = d.getFullYear();
 span.innerText = year;
 
+const pagesPhotoGallery = document.querySelectorAll(".pages-photo-gallery");
+
+
 const newRescue = function (name, breed, gender, age) {
   const rescue = {
     name: name,
@@ -127,6 +130,8 @@ rescueCat.push(
   violet,
   willow
 );
+
+pagesPhotoGallery.forEach();
 buttons.forEach((button) =>
   button.addEventListener("click", function () {
     alert("Thank you for donating to Cat Rescue!");
