@@ -50,7 +50,60 @@ const ivy = newRescue("Ivy", "Exotic Shorthair", "Female", " 5 years");
 const jasmine = newRescue("Jasmine", "British Shorthair", "Female", "2 years");
 const lavender = newRescue("Lavender", "Himalayan", "Female", "4 years");
 const lily = newRescue("Lily", "American Shorthair", "Female", "2 years");
+const luna =newRescue("Luna", "Havana Brown", "4 years");
+const magnolia = newRescue("Magnolia", "Colorpoint Longhair", "10 months");
+const maisy = newRescue("Maisy", "Asian Semi-longhair", "2 years");
+const maple = newRescue("Maple", "Burmilla", "4 years");
+const muffin = newRescue("Muffin", "Maine Coon", "7 years");
+const mulberry = newRescue("Mulberry", "Japanese Bobtail", "11 months");
+const penny = newRescue("Penny", "Bombay", "3 years");
+const pepper = newRescue("Pepper", "American Shorthair?", "2 months");
+const peppermint = newRescue("Peppermint", "Norwegian Forest Cat", "2 years");
+const petunia = newRescue("Petunia", "American Bobtail", "3 years");
+const piper = newRescue("Piper", "American Shorthair", "1 year");
+const poppy = newRescue("Poppy", "American Bobtail", "2 years");
+const rey = newRescue("Rey", "British Shorthair", "4 years");
+const rivers = newRescue("Rivers", "British Shorthair", "1 month");
+const rose = newRescue("Rose", "Himalayan", "4 years");
+const rosemary = newRescue("Rosemary", "Arabian Mau", "2 years");
+const roxie = newRescue("Roxie", "Sphynx", "3 years");
+const sheba = newRescue("Sheba", "American Shorthair", "1 year");
+const thyme = newRescue("Thyme", "American Curl", "6 months");
+const tom = newRescue("Tom", "American Bobtail", "6 years");
+const tulip = newRescue("Tulip", "Maine Coon", "2 years");
+const violet = newRescue("Violet", "British Shorthair", "2 months");
+const willow = newRescue("Willow", "Arabian Mau", "4 years");
 
+const rescueCat = [];
+
+rescueCat.push(
+  aimsley,
+  alvin,
+  apple,
+  ash,
+  basil,
+  blossom,
+  brie,
+  buttercup,
+  callie,
+  camellia,
+  chili,
+  daffodil,
+  dahlia,
+  daisy,
+  dandelion,
+  fern,
+  flower,
+  gigi,
+  hawk,
+  holly,
+  honey,
+  iris,
+  ivy,
+  jasmine,
+  lavender,
+  lily
+);
 buttons.forEach((button) =>
   button.addEventListener("click", function () {
     alert("Thank you for donating to Cat Rescue!");
