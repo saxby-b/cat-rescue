@@ -102,7 +102,30 @@ rescueCat.push(
   ivy,
   jasmine,
   lavender,
-  lily
+  lily,
+  luna,
+  magnolia,
+  maisy,
+  maple,
+  muffin,
+  mulberry,
+  penny,
+  pepper,
+  peppermint,
+  petunia,
+  piper,
+  poppy,
+  rey,
+  rivers,
+  rose,
+  rosemary,
+  roxie,
+  sheba,
+  thyme,
+  tom,
+  tulip,
+  violet,
+  willow
 );
 buttons.forEach((button) =>
   button.addEventListener("click", function () {
