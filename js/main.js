@@ -131,7 +131,16 @@ rescueCat.push(
   willow
 );
 
-pagesPhotoGallery.forEach();
+pagesPhotoGallery.forEach((page) => page.addEventListener("load", function() {
+  const p = document.createElement("p");
+  for(let rescue of rescueCat){
+    const p = document.createElement("p");
+    p.innerHTML = `${rescue}`;
+    pagesPhotoGallery.append(p);
+
+  }
+ 
+}))
 buttons.forEach((button) =>
   button.addEventListener("click", function () {
     alert("Thank you for donating to Cat Rescue!");
