@@ -6,7 +6,6 @@ span.innerText = year;
 
 const pagesPhotoGallery = document.querySelectorAll(".pages-photo-gallery");
 
-
 const newRescue = function (name, breed, gender, age) {
   const rescue = {
     name: name,
@@ -53,7 +52,7 @@ const ivy = newRescue("Ivy", "Exotic Shorthair", "Female", " 5 years");
 const jasmine = newRescue("Jasmine", "British Shorthair", "Female", "2 years");
 const lavender = newRescue("Lavender", "Himalayan", "Female", "4 years");
 const lily = newRescue("Lily", "American Shorthair", "Female", "2 years");
-const luna =newRescue("Luna", "Havana Brown", "4 years");
+const luna = newRescue("Luna", "Havana Brown", "4 years");
 const magnolia = newRescue("Magnolia", "Colorpoint Longhair", "10 months");
 const maisy = newRescue("Maisy", "Asian Semi-longhair", "2 years");
 const maple = newRescue("Maple", "Burmilla", "4 years");
@@ -131,16 +130,16 @@ rescueCat.push(
   willow
 );
 
-pagesPhotoGallery.forEach((page) => page.addEventListener("load", function() {
-  const p = document.createElement("p");
-  for(let rescue of rescueCat){
+pagesPhotoGallery.forEach((page) =>
+  page.addEventListener("load", function () {
     const p = document.createElement("p");
-    p.innerHTML = `${rescue}`;
-    pagesPhotoGallery.append(p);
-
-  }
- 
-}))
+    for (let rescue of rescueCat) {
+      const p = document.createElement("p");
+      p.innerHTML = `${rescue}`;
+      pagesPhotoGallery.append(p);
+    }
+  })
+);
 buttons.forEach((button) =>
   button.addEventListener("click", function () {
     alert("Thank you for donating to Cat Rescue!");
