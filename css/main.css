@@ -263,6 +263,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
+  flex-flow: row wrap;
 }
 
 .cat {
@@ -270,10 +271,16 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 100%;
+  flex-flow: column wrap;
 }
 
 .cat img {
   width: 100%;
+}
+
+.cat img {
+  width: 100%;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
