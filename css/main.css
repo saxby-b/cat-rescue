@@ -287,7 +287,6 @@ footer p {
 }
 
 @media (min-width: 768px) {
-
   /* General Styles */
 
   h2 {
@@ -341,7 +340,6 @@ footer p {
 }
 
 @media (min-width: 1024px) {
-
   /*General Styles */
 
   h1 {
@@ -363,7 +361,7 @@ footer p {
   }
   .about-img {
     width: 50%;
-    order: 2; 
+    order: 2;
   }
 
   .about-img img {
@@ -439,7 +437,6 @@ footer p {
 }
 
 @media (min-width: 1200px) {
-  
   /*About Styles */
 
   .about-img {
