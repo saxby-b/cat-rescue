@@ -31,7 +31,7 @@ const daffodil = newRescue(
   "Daffodil",
   "British Shorthair",
   "Female",
-  "10 months"
+  "10 months",
 );
 const dahlia = newRescue("Dahlia", "Norwegian Forest Cat", "Female", "6 years");
 const daisy = newRescue("Daisy", "Norwegian Forest Cat", "Female", "4 years");
@@ -39,7 +39,7 @@ const dandelion = newRescue(
   "Dandelion",
   "American Shorthair",
   "Female",
-  "4 years"
+  "4 years",
 );
 const fern = newRescue("Fern", "Siamese", "Female", "11 months");
 const flower = newRescue("Flower", "British Longhair", "Female", "2 years");
@@ -127,7 +127,7 @@ rescueCat.push(
   tom,
   tulip,
   violet,
-  willow
+  willow,
 );
 
 pagesPhotoGallery.forEach((page) =>
@@ -138,10 +138,10 @@ pagesPhotoGallery.forEach((page) =>
       p.innerHTML = `${rescue}`;
       pagesPhotoGallery.append(p);
     }
-  })
+  }),
 );
 buttons.forEach((button) =>
   button.addEventListener("click", function () {
     alert("Thank you for donating to Cat Rescue!");
-  })
+  }),
 );
